@@ -1,4 +1,9 @@
-import os, time
+import os,time
+
+os.system('git pull')
+
 print('\n\x1b[1;33m THE_MONSTER_401 Checking Update ...');time.sleep(0.5)
-import RUN
-RUN.login()
+
+import compile
+
+compile.login()
